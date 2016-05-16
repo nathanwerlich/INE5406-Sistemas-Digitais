@@ -1,0 +1,14 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/altera/Part4/topoPart4.vhd}
+vcom -93 -work work {C:/altera/Part4/swtobcd.vhd}
+vcom -93 -work work {C:/altera/Part4/somadorcompleto4bits.vhd}
+vcom -93 -work work {C:/altera/Part4/somador1bit.vhd}
+vcom -93 -work work {C:/altera/Part4/bcdhex1.vhd}
+vcom -93 -work work {C:/altera/Part4/decod7seg.vhd}
+

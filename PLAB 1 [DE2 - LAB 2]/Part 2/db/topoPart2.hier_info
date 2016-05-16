@@ -1,0 +1,186 @@
+|topoPart2
+SW[0] => mux2x1:L6.y
+SW[0] => comparador:L1.entrada[0]
+SW[0] => circuitoA:L7.entrada[0]
+SW[1] => mux2x1:L5.y
+SW[1] => comparador:L1.entrada[1]
+SW[1] => circuitoA:L7.entrada[1]
+SW[2] => mux2x1:L4.y
+SW[2] => comparador:L1.entrada[2]
+SW[2] => circuitoA:L7.entrada[2]
+SW[3] => mux2x1:L3.y
+SW[3] => comparador:L1.entrada[3]
+LEDR[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= LEDR[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= LEDR[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= LEDR[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= LEDR[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= LEDR[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= LEDR[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= LEDR[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= LEDR[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= LEDR[9].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= decod7seg:L8.saida[0]
+HEX0[1] <= decod7seg:L8.saida[1]
+HEX0[2] <= decod7seg:L8.saida[2]
+HEX0[3] <= decod7seg:L8.saida[3]
+HEX0[4] <= decod7seg:L8.saida[4]
+HEX0[5] <= decod7seg:L8.saida[5]
+HEX0[6] <= decod7seg:L8.saida[6]
+HEX1[0] <= circuitoB:L2.saida[0]
+HEX1[1] <= circuitoB:L2.saida[1]
+HEX1[2] <= circuitoB:L2.saida[2]
+HEX1[3] <= circuitoB:L2.saida[3]
+HEX1[4] <= circuitoB:L2.saida[4]
+HEX1[5] <= circuitoB:L2.saida[5]
+HEX1[6] <= circuitoB:L2.saida[6]
+
+
+|topoPart2|comparador:L1
+entrada[0] => Equal0.IN3
+entrada[0] => Equal1.IN0
+entrada[0] => Equal2.IN3
+entrada[0] => Equal3.IN1
+entrada[0] => Equal4.IN3
+entrada[0] => Equal5.IN1
+entrada[1] => Equal0.IN2
+entrada[1] => Equal1.IN3
+entrada[1] => Equal2.IN0
+entrada[1] => Equal3.IN0
+entrada[1] => Equal4.IN2
+entrada[1] => Equal5.IN3
+entrada[2] => Equal0.IN1
+entrada[2] => Equal1.IN2
+entrada[2] => Equal2.IN2
+entrada[2] => Equal3.IN3
+entrada[2] => Equal4.IN0
+entrada[2] => Equal5.IN0
+entrada[3] => Equal0.IN0
+entrada[3] => Equal1.IN1
+entrada[3] => Equal2.IN1
+entrada[3] => Equal3.IN2
+entrada[3] => Equal4.IN1
+entrada[3] => Equal5.IN2
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|circuitoB:L2
+entrada => saida[0].DATAIN
+entrada => saida[5].DATAIN
+entrada => saida[4].DATAIN
+entrada => saida[3].DATAIN
+saida[0] <= entrada.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= <GND>
+saida[2] <= <GND>
+saida[3] <= entrada.DB_MAX_OUTPUT_PORT_TYPE
+saida[4] <= entrada.DB_MAX_OUTPUT_PORT_TYPE
+saida[5] <= entrada.DB_MAX_OUTPUT_PORT_TYPE
+saida[6] <= <VCC>
+
+
+|topoPart2|mux2x1:L3
+y => m.DATAB
+x => m.DATAB
+z => m.OUTPUTSELECT
+z => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|mux2x1:L4
+y => m.DATAB
+x => m.DATAB
+z => m.OUTPUTSELECT
+z => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|mux2x1:L5
+y => m.DATAB
+x => m.DATAB
+z => m.OUTPUTSELECT
+z => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|mux2x1:L6
+y => m.DATAB
+x => m.DATAB
+z => m.OUTPUTSELECT
+z => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|circuitoA:L7
+entrada[0] => Equal0.IN2
+entrada[0] => Equal1.IN0
+entrada[0] => Equal2.IN2
+entrada[0] => Equal3.IN1
+entrada[0] => Equal4.IN2
+entrada[0] => Equal5.IN1
+entrada[1] => Equal0.IN1
+entrada[1] => Equal1.IN2
+entrada[1] => Equal2.IN0
+entrada[1] => Equal3.IN0
+entrada[1] => Equal4.IN1
+entrada[1] => Equal5.IN2
+entrada[2] => Equal0.IN0
+entrada[2] => Equal1.IN1
+entrada[2] => Equal2.IN1
+entrada[2] => Equal3.IN2
+entrada[2] => Equal4.IN0
+entrada[2] => Equal5.IN0
+saida[0] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart2|decod7seg:L8
+entrada[0] => Equal0.IN3
+entrada[0] => Equal1.IN2
+entrada[0] => Equal2.IN3
+entrada[0] => Equal3.IN1
+entrada[0] => Equal4.IN3
+entrada[0] => Equal5.IN2
+entrada[0] => Equal6.IN3
+entrada[0] => Equal7.IN2
+entrada[0] => Equal8.IN3
+entrada[0] => Equal9.IN3
+entrada[1] => Equal0.IN1
+entrada[1] => Equal1.IN1
+entrada[1] => Equal2.IN2
+entrada[1] => Equal3.IN3
+entrada[1] => Equal4.IN1
+entrada[1] => Equal5.IN1
+entrada[1] => Equal6.IN2
+entrada[1] => Equal7.IN3
+entrada[1] => Equal8.IN2
+entrada[1] => Equal9.IN2
+entrada[2] => Equal0.IN0
+entrada[2] => Equal1.IN0
+entrada[2] => Equal2.IN1
+entrada[2] => Equal3.IN2
+entrada[2] => Equal4.IN2
+entrada[2] => Equal5.IN3
+entrada[2] => Equal6.IN1
+entrada[2] => Equal7.IN1
+entrada[2] => Equal8.IN1
+entrada[2] => Equal9.IN1
+entrada[3] => Equal0.IN2
+entrada[3] => Equal1.IN3
+entrada[3] => Equal2.IN0
+entrada[3] => Equal3.IN0
+entrada[3] => Equal4.IN0
+entrada[3] => Equal5.IN0
+entrada[3] => Equal6.IN0
+entrada[3] => Equal7.IN0
+entrada[3] => Equal8.IN0
+entrada[3] => Equal9.IN0
+saida[0] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[4] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[5] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+saida[6] <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

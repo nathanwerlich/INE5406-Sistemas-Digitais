@@ -1,0 +1,163 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do topoPart4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/Part4/SWtoBCD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWtoBCD
+# -- Compiling architecture circ of SWtoBCD
+# vcom -93 -work work {C:/altera/Part4/somadorCompleto4bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somadorCompleto4bits
+# -- Compiling architecture som4bit of somadorCompleto4bits
+# vcom -93 -work work {C:/altera/Part4/somador1bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somador1bit
+# -- Compiling architecture som1bit of somador1bit
+# vcom -93 -work work {C:/altera/Part4/decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decod7seg
+# -- Compiling architecture decod of decod7seg
+# vcom -93 -work work {C:/altera/Part4/BCDHEX1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BCDHEX1
+# -- Compiling architecture circ of BCDHEX1
+# Load canceled
+# vcom -93 -work work {C:/altera/Part4/topoPart4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity topoPart4
+# -- Compiling architecture topo_estru of topoPart4
+# vcom -93 -work work {C:/altera/Part4/SWtoBCD2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWtoBCD2
+# -- Compiling architecture circ of SWtoBCD2
+# 
+vsim +altera -do topoPart4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.topopart4
+# vsim +altera -do topoPart4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.topopart4 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.topopart4(topo_estru)
+# Loading work.swtobcd(circ)
+# Loading work.somadorcompleto4bits(som4bit)
+# Loading work.somador1bit(som1bit)
+# Loading work.swtobcd2(circ)
+# Loading work.bcdhex1(circ)
+# Loading work.decod7seg(decod)
+# do topoPart4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/altera/Part4/SWtoBCD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWtoBCD
+# -- Compiling architecture circ of SWtoBCD
+# vcom -93 -work work {C:/altera/Part4/somadorCompleto4bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somadorCompleto4bits
+# -- Compiling architecture som4bit of somadorCompleto4bits
+# vcom -93 -work work {C:/altera/Part4/somador1bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somador1bit
+# -- Compiling architecture som1bit of somador1bit
+# vcom -93 -work work {C:/altera/Part4/decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decod7seg
+# -- Compiling architecture decod of decod7seg
+# vcom -93 -work work {C:/altera/Part4/BCDHEX1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BCDHEX1
+# -- Compiling architecture circ of BCDHEX1
+# vcom -93 -work work {C:/altera/Part4/topoPart4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity topoPart4
+# -- Compiling architecture topo_estru of topoPart4
+# vcom -93 -work work {C:/altera/Part4/SWtoBCD2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWtoBCD2
+# -- Compiling architecture circ of SWtoBCD2
+# 
+add wave -position insertpoint  \
+sim:/topopart4/SW \
+sim:/topopart4/LEDR \
+sim:/topopart4/HEX0 \
+sim:/topopart4/HEX1 \
+sim:/topopart4/HEX4 \
+sim:/topopart4/HEX6 \
+sim:/topopart4/signalCOut \
+sim:/topopart4/issoouaquilo \
+sim:/topopart4/F1 \
+sim:/topopart4/F2 \
+sim:/topopart4/F3 \
+sim:/topopart4/saidaSomador \
+sim:/topopart4/saidaSomadorCOut \
+sim:/topopart4/outBCDHEX1 \
+sim:/topopart4/saidaDecod1 \
+sim:/topopart4/saidaDecod2 \
+sim:/topopart4/saidaDecod3
+force -freeze sim:/topopart4/SW 000000000 0
+run
+force -freeze sim:/topopart4/SW 010011001 0
+run
+force -freeze sim:/topopart4/SW 110011001 0
+run
+force -freeze sim:/topopart4/SW 001110111 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/topopart4/SW 000000000 0
+force -freeze sim:/topopart4/SW 010101010 0
+run

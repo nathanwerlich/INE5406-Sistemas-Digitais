@@ -1,0 +1,25 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+
+entity somadorCompleto4bits is
+  port( a, b: in std_logic_vector (3 downto 0);
+		  cIn: in std_logic;
+		  s: out std_logic_vector (3 downto 0);
+		  cOut: in std_logic);
+end somadorCompleto4bits;
+
+architecture som4bit of somadorCompleto4bits is
+	begin  
+	component somador1bit 
+		port( a, b, cIn : in std_logic;
+				s, cOut : out std_logic);
+  END COMPONENT;
+  SIGNAL carry_sig: std_logic_vector(N-1 DOWNTO 0);
+BEGIN
+
+  A1: Adder1 port map (a(0), b(0), cIn, sum(0), carry_sig(0));
+  A2: Adder1 port map (a(1), b(1), carry_sig(0), sum(1), carry_sig(1));
+  A3: Adder1 port map (a(2), b(2), carry_sig(1), sum(2), carry_sig(2));
+  A4: Adder1 port map (a(3), b(3), carry_sig(2), sum(3), cOut);
+
+END imp;

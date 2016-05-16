@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\Part3\simulation\modelsim
+Esomador1bit
+Z1 w1462202511
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\Part3\simulation\modelsim
+Z5 8C:/altera/Part3/somador1bit.vhd
+Z6 FC:/altera/Part3/somador1bit.vhd
+l0
+L4
+Vc0UAa8^Jd?fhEHWgSe^2o1
+!s100 [E<3b6Ef=_C7QQT:;m]F72
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1462206248.813000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/Part3/somador1bit.vhd|
+Z10 !s107 C:/altera/Part3/somador1bit.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Asom1bit
+R2
+R3
+DEx4 work 11 somador1bit 0 22 c0UAa8^Jd?fhEHWgSe^2o1
+l13
+L12
+VkRP]J]218Tf:cZdM0S?:J0
+!s100 giKR:[=[`Y[z>IJBdOIha1
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Esomadorcompleto4bits
+Z13 w1462205474
+R2
+R3
+R4
+Z14 8C:/altera/Part3/somadorCompleto4bits.vhd
+Z15 FC:/altera/Part3/somadorCompleto4bits.vhd
+l0
+L4
+VTAcVYOWWMOUmEL8e4:e7>3
+R7
+31
+Z16 !s108 1462206248.125000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/altera/Part3/somadorCompleto4bits.vhd|
+Z18 !s107 C:/altera/Part3/somadorCompleto4bits.vhd|
+R11
+R12
+!s100 ORCDSIbX=eDkL6E:kLX3C1
+!i10b 1
+Asom4bit
+R2
+R3
+DEx4 work 20 somadorcompleto4bits 0 22 TAcVYOWWMOUmEL8e4:e7>3
+l19
+L11
+V5kIS8kb=Mmg7`i8=mIG>X1
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 NELKAbiY7>Z0NH<d6>Bl?0
+!i10b 1
+Etopopart3
+Z19 w1462205674
+R2
+R3
+R4
+Z20 8C:/altera/Part3/topoPart3.vhd
+Z21 FC:/altera/Part3/topoPart3.vhd
+l0
+L4
+VOAhXWA>lSh2:e>kY<MhQb2
+R7
+31
+Z22 !s108 1462206248.476000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/altera/Part3/topoPart3.vhd|
+Z24 !s107 C:/altera/Part3/topoPart3.vhd|
+R11
+R12
+!s100 >;6eDIFjgGT[]HQ59okaJ1
+!i10b 1
+Atopo_estru
+R2
+R3
+DEx4 work 9 topopart3 0 22 OAhXWA>lSh2:e>kY<MhQb2
+l22
+L10
+VC_:Q87YF]Y_mg4Jn:C5MY3
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 `7;1CG2]VdC`5^WKKjL3b0
+!i10b 1
