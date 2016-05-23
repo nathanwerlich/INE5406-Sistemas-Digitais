@@ -1,0 +1,24 @@
+|topoPart3
+SW[0] => RSLatch:Master.S
+SW[0] => RSLatch:Master.R
+SW[1] => RSLatch:Master.Clk
+SW[1] => RSLatch:Slave.Clk
+LEDR[0] <= RSLatch:Slave.Q
+
+
+|topoPart3|RSLatch:Master
+Clk => R_g.IN0
+Clk => S_g.IN0
+R => R_g.IN1
+S => S_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart3|RSLatch:Slave
+Clk => R_g.IN0
+Clk => S_g.IN0
+R => R_g.IN1
+S => S_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,112 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do topoPart4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/PLab2/Part4/topoPart4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity topoPart4
+# -- Compiling architecture topo_estru of topoPart4
+# vcom -93 -work work {C:/altera/PLab2/Part4/riseDLatch3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity riseDLatch3
+# -- Compiling architecture Behavior of riseDLatch3
+# vcom -93 -work work {C:/altera/PLab2/Part4/dlatch3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dLatch3
+# -- Compiling architecture Behavior of dLatch3
+# 
+vsim +altera -do topoPart4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.dlatch3 work.risedlatch3 work.topopart4
+# vsim +altera -do topoPart4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.dlatch3 work.risedlatch3 work.topopart4 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dlatch3(behavior)
+# Loading work.risedlatch3(behavior)
+# Loading work.topopart4(topo_estru)
+# do topoPart4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/altera/PLab2/Part4/topoPart4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity topoPart4
+# -- Compiling architecture topo_estru of topoPart4
+# vcom -93 -work work {C:/altera/PLab2/Part4/riseDLatch3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity riseDLatch3
+# -- Compiling architecture Behavior of riseDLatch3
+# vcom -93 -work work {C:/altera/PLab2/Part4/dlatch3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dLatch3
+# -- Compiling architecture Behavior of dLatch3
+# 
+add wave -position insertpoint sim:/dlatch3/*
+add wave -position insertpoint sim:/risedlatch3/*
+add wave -position insertpoint sim:/topopart4/*
+force -freeze sim:/topopart4/SW(1) 1 0, 0 {150 ps} -r 300
+force -freeze sim:/topopart4/SW(0) 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/topopart4/SW(0) 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,15 @@
+|topoPart2
+SW[0] => RSLatch:L1.S
+SW[0] => RSLatch:L1.R
+SW[1] => RSLatch:L1.Clk
+LEDR[0] <= RSLatch:L1.Q
+
+
+|topoPart2|RSLatch:L1
+Clk => R_g.IN0
+Clk => S_g.IN0
+R => R_g.IN1
+S => S_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

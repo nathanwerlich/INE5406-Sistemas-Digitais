@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\PLab2\Part5\simulation\modelsim
+Edecod7seg
+Z1 w1463085278
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\PLab2\Part5\simulation\modelsim
+Z5 8C:/altera/PLab2/Part5/decod7seg.vhd
+Z6 FC:/altera/PLab2/Part5/decod7seg.vhd
+l0
+L4
+VMGlOXVQdf]>fP;^Dbd3V_2
+!s100 kBB<;`S5CV`eTJjQMT9Kb0
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1463093261.033000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part5/decod7seg.vhd|
+Z10 !s107 C:/altera/PLab2/Part5/decod7seg.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Adecod
+R2
+R3
+DEx4 work 9 decod7seg 0 22 MGlOXVQdf]>fP;^Dbd3V_2
+l10
+L9
+Vji3UTCH0eTQ2;1nezlPj[3
+!s100 GhISdLTkdQ^6IKA>V]fT[0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Edemux1_2
+Z13 w1463093226
+R2
+R3
+R4
+Z14 8C:/altera/PLab2/Part5/demux1_2.vhd
+Z15 FC:/altera/PLab2/Part5/demux1_2.vhd
+l0
+L4
+VP3HL>:e@ECOV8C3^eG1231
+R7
+31
+Z16 !s108 1463093260.513000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part5/demux1_2.vhd|
+Z18 !s107 C:/altera/PLab2/Part5/demux1_2.vhd|
+R11
+R12
+!s100 RNfRKD3GaAQMC`43Q]]ja2
+!i10b 1
+Ademux1_2_bhv
+R2
+R3
+DEx4 work 8 demux1_2 0 22 P3HL>:e@ECOV8C3^eG1231
+l14
+L12
+VdRTGfceA]Rdb5k1bzUHDX1
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 Q2j3U8J7Hdk<GZ_86MAkY3
+!i10b 1
+Edlatch3
+Z19 w1463092989
+R2
+R3
+R4
+Z20 8C:/altera/PLab2/Part5/dlatch3.vhd
+Z21 FC:/altera/PLab2/Part5/dlatch3.vhd
+l0
+L4
+VeIiffbJelo75fTDM8Klm]0
+R7
+31
+Z22 !s108 1463093260.764000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part5/dlatch3.vhd|
+Z24 !s107 C:/altera/PLab2/Part5/dlatch3.vhd|
+R11
+R12
+!s100 nG>gX1LYSmJHTUP7XDJB_3
+!i10b 1
+Abehavior
+R2
+R3
+DEx4 work 7 dlatch3 0 22 eIiffbJelo75fTDM8Klm]0
+l13
+L12
+V28SX?LdM0Q8MGI9Rf]AM[0
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 ^[@o`<;0AmWXF[HFa8hk>3
+!i10b 1
+Etopopart5
+Z25 w1463092251
+R2
+R3
+R4
+Z26 8C:/altera/PLab2/Part5/topopart5.vhd
+Z27 FC:/altera/PLab2/Part5/topopart5.vhd
+l0
+L5
+VVW:`BPOh:9_Ch3EbP=nY02
+R7
+31
+Z28 !s108 1463093260.223000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part5/topopart5.vhd|
+Z30 !s107 C:/altera/PLab2/Part5/topopart5.vhd|
+R11
+R12
+!s100 A5<DBbCEMEJJC42?o9L6K2
+!i10b 1
+Atopo_estru
+R2
+R3
+DEx4 work 9 topopart5 0 22 VW:`BPOh:9_Ch3EbP=nY02
+l33
+L11
+VX`YM86IGi?aH`2k;0:4U72
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 >N^5_JI>_L4JEheajSk_o1
+!i10b 1

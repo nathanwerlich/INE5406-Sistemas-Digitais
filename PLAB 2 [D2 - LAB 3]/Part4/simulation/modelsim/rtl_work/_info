@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\PLab2\Part4\simulation\modelsim
+Edlatch3
+Z1 w1463081521
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\PLab2\Part4\simulation\modelsim
+Z5 8C:/altera/PLab2/Part4/dlatch3.vhd
+Z6 FC:/altera/PLab2/Part4/dlatch3.vhd
+l0
+L4
+V2jEeBOH4C=>^RFlhH[fW52
+!s100 FEVjYVHfB;3TATMeBKAFj1
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1463082857.088000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part4/dlatch3.vhd|
+Z10 !s107 C:/altera/PLab2/Part4/dlatch3.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavior
+R2
+R3
+DEx4 work 7 dlatch3 0 22 2jEeBOH4C=>^RFlhH[fW52
+l10
+L9
+VXo1=L2]A[S43jbhOG[eg>0
+!s100 P6PnCciIJHUQ3KhSlPbE11
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Erisedlatch3
+Z13 w1463082741
+R2
+R3
+R4
+Z14 8C:/altera/PLab2/Part4/riseDLatch3.vhd
+Z15 FC:/altera/PLab2/Part4/riseDLatch3.vhd
+l0
+L4
+VXFo=b8FGDjYhg915==b[C0
+R7
+31
+Z16 !s108 1463082856.903000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part4/riseDLatch3.vhd|
+Z18 !s107 C:/altera/PLab2/Part4/riseDLatch3.vhd|
+R11
+R12
+!s100 <On5[Bmk_8<RZ_e3`9f[;2
+!i10b 1
+Abehavior
+R2
+R3
+DEx4 work 11 risedlatch3 0 22 XFo=b8FGDjYhg915==b[C0
+l10
+L9
+V?CM<l9zDc^GWm7ZB51=541
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 EGI_WU3B6BMQ6iak`:T2l1
+!i10b 1
+Etopopart4
+Z19 w1463082792
+R2
+R3
+R4
+Z20 8C:/altera/PLab2/Part4/topoPart4.vhd
+Z21 FC:/altera/PLab2/Part4/topoPart4.vhd
+l0
+L4
+V_^LzSid2>@M>jF@1^EET90
+R7
+31
+Z22 !s108 1463082856.587000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/altera/PLab2/Part4/topoPart4.vhd|
+Z24 !s107 C:/altera/PLab2/Part4/topoPart4.vhd|
+R11
+R12
+!s100 bk56:hIX4ZTnRE[:nV7MV0
+!i10b 1
+Atopo_estru
+R2
+R3
+DEx4 work 9 topopart4 0 22 _^LzSid2>@M>jF@1^EET90
+l22
+L9
+VJ;3=j>3]RG?FH?1:In]IE3
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 cL<>bNz`b28h5B4]6GeZG0
+!i10b 1

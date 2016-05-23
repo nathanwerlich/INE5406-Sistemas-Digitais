@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/PLab2/Part1/topopart1.vhd
+source_file = 1, C:/altera/PLab2/Part1/db/topoPart1.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/altera/PLab2/Part1/rslatch.vhd
+design_name = topoPart1
+instance = comp, \L1|S_g\, L1|S_g, topoPart1, 1
+instance = comp, \SW[1]~I\, SW[1], topoPart1, 1
+instance = comp, \SW[0]~I\, SW[0], topoPart1, 1
+instance = comp, \L1|Qb\, L1|Qb, topoPart1, 1
+instance = comp, \SW[2]~I\, SW[2], topoPart1, 1
+instance = comp, \L1|R_g\, L1|R_g, topoPart1, 1
+instance = comp, \L1|Qa\, L1|Qa, topoPart1, 1
+instance = comp, \LEDR[0]~I\, LEDR[0], topoPart1, 1

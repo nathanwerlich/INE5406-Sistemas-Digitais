@@ -1,0 +1,30 @@
+|topoPart4
+SW[0] => dLatch3:Qa.D
+SW[0] => riseDLatch3:Qb.D
+SW[0] => fallDLatch3:Qc.D
+SW[1] => dLatch3:Qa.clk
+SW[1] => riseDLatch3:Qb.clk
+SW[1] => fallDLatch3:Qc.clk
+LEDR[0] <= fallDLatch3:Qc.Q
+LEDR[1] <= riseDLatch3:Qb.Q
+LEDR[2] <= dLatch3:Qa.Q
+
+
+|topoPart4|dLatch3:Qa
+D => Q$latch.DATAIN
+clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart4|riseDLatch3:Qb
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topoPart4|fallDLatch3:Qc
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

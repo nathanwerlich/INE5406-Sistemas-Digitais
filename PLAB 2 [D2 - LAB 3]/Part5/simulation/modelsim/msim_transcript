@@ -1,0 +1,94 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do topoPart5_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/PLab2/Part5/topopart5.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity topoPart5
+# -- Compiling architecture topo_estru of topoPart5
+# vcom -93 -work work {C:/altera/PLab2/Part5/demux1_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity demux1_2
+# -- Compiling architecture demux1_2_bhv of demux1_2
+# vcom -93 -work work {C:/altera/PLab2/Part5/dlatch3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dLatch3
+# -- Compiling architecture Behavior of dLatch3
+# vcom -93 -work work {C:/altera/PLab2/Part5/decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decod7seg
+# -- Compiling architecture decod of decod7seg
+# 
+vsim -voptargs=+acc work.topopart5
+# vsim -voptargs=+acc work.topopart5 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.topopart5(topo_estru)
+# Loading work.demux1_2(demux1_2_bhv)
+# Loading work.dlatch3(behavior)
+# Loading work.decod7seg(decod)
+add wave -position insertpoint  \
+sim:/topopart5/SW \
+sim:/topopart5/KEY \
+sim:/topopart5/HEX0 \
+sim:/topopart5/HEX1 \
+sim:/topopart5/HEX2 \
+sim:/topopart5/HEX3 \
+sim:/topopart5/HEX4 \
+sim:/topopart5/HEX5 \
+sim:/topopart5/HEX6 \
+sim:/topopart5/HEX7 \
+sim:/topopart5/saidaDMuxParaReg \
+sim:/topopart5/saidaDMuxParaHex \
+sim:/topopart5/saidaLetParaDecode
+force -freeze sim:/topopart5/KEY 111 0
+force -freeze sim:/topopart5/SW 1111111111111111 0
+run
+force -freeze sim:/topopart5/KEY(1) 1 0, 0 {50 ps} -r 100
+force -freeze sim:/topopart5/KEY(0) 0 0
+run
+run
+force -freeze sim:/topopart5/KEY(0) 1 0
+force -freeze sim:/topopart5/KEY(2) 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/topopart5/KEY(2) 1 0
+force -freeze sim:/topopart5/SW 1010101010101010 0
+run
+run
+run
+force -freeze sim:/topopart5/KEY(2) 1 0
+force -freeze sim:/topopart5/KEY(1) 1 0
+force -freeze sim:/topopart5/KEY(0) 0 0
+run
+run
+run
+run
+force -freeze sim:/topopart5/KEY(1) 1 0, 0 {50 ps} -r 100
+run
+run
+run
